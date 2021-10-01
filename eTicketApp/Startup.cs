@@ -1,4 +1,5 @@
 using eTicketApp.Data;
+using eTicketApp.Data.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -25,7 +26,13 @@ namespace eTicketApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //DbContext Configuration
             services.AddDbContext<AppDbContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString")));
+
+            //Services Configuration
+            services.AddScoped<IActorsServices, ActorsService>();
+            
+            
             services.AddControllersWithViews();
             
         }
