@@ -3,7 +3,11 @@
 
 ##MVC:
 
-*	Basic topics
-  *	Custom Model Validators (Server/Client)
-  *	Custom Action Filters
-  *	Using Unobtrusive JS
+####Topics:
+  *ViewComponent
+  *ShoppingCart
+  *IdentityRoles
+  *PartialView
+  *SolidPrinciple
+  *GenreicRepos
+  *PayBal Integration
