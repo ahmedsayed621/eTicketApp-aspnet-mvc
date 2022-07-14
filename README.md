@@ -4,10 +4,11 @@
 ##MVC:
 
 ####Topics:
-  *ViewComponent
-  *ShoppingCart
-  *IdentityRoles
-  *PartialView
-  *SolidPrinciple
-  *GenreicRepos
-  *PayBal Integration
+
+  * ViewComponent
+  * ShoppingCart
+  * IdentityRoles
+  * PartialView
+  * SolidPrinciple
+  * GenreicRepos
+  * PayBal Integration
