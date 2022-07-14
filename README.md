@@ -3,8 +3,8 @@
 
 ##MVC:
 
--Topics:
---Basic topics
---Custom Model Validators (Server/Client)
---Custom Action Filters
---Using  JQuery
+- Topics:
+-- Basic topics
+-- Custom Model Validators (Server/Client)
+-- Custom Action Filters
+-- Using  JQuery
