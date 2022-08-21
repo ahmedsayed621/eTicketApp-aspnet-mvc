@@ -12,7 +12,7 @@
   *	Custom Action Filters
   *	Using Unobtrusive JS
 
-### Entity Framework 6 (EF6):
+### Entity Framework Core :
 * Topics:
   *	Code First
   *	Fluent API
