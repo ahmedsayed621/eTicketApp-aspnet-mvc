@@ -1,18 +1,28 @@
 # Full-Stack MVC (eTicketApp) .Net5
 
 
-## MVC
 
-#### Topics:
-
-  * ViewComponent
-  * ShoppingCart
-  * IdentityRoles
-  * PartialView
-  * SolidPrinciple
-  * GenreicRepos
-  * PayBal Integration
 
 <br/>
 
-## Screenshots
+### MVC 5:
+* Topics:
+  *	Basic topics
+  *	Custom Model Validators (Server/Client)
+  *	Custom Action Filters
+  *	Using Unobtrusive JS
+
+### Entity Framework 6 (EF6):
+* Topics:
+  *	Code First
+  *	Fluent API
+
+
+### Full Stack:
+* Topics:
+  *	Repository Pattern
+  *	SOLID
+
+
+<br/>
+
