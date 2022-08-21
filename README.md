@@ -10,7 +10,7 @@
   *	Basic topics
   *	Custom Model Validators (Server/Client)
   *	Custom Action Filters
-  *	Using Unobtrusive JS
+  
 
 ### Entity Framework Core :
 * Topics:
