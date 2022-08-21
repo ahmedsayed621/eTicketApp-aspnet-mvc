@@ -1,6 +1,7 @@
 ﻿using eTicketApp.Data.Cart;
 using eTicketApp.Data.Services;
 using eTicketApp.Data.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -10,8 +11,10 @@ using System.Threading.Tasks;
 
 namespace eTicketApp.Controllers
 {
+    [Authorize]
     public class OrdersController : Controller
     {
+        
         private readonly IMoviesService _moviesService;
         private readonly ShoppingCart _shoppingCart;
         private readonly IOrdersService _ordersService;
